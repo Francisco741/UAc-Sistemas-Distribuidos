@@ -39,6 +39,13 @@ class Game(object):
         self.background: pg.Surface = self.background.convert()
         self.background.fill((56, 136, 48))
         self.screen.blit(self.background, (0, 0))
+        # Fonte usada na mensagem de espera
+        self.font: pg.font.Font = pg.font.Font("Other/PressStart2P-Regular.ttf", 28)
+        # Mensagem de espera pelo oponente
+        waiting_message = self.font.render(
+            "À espera do seu adversário", True, (255, 255, 255)
+        )
+        self.screen.blit(waiting_message, (80, 300, self.width, self.height + 40))
         # Tamanho da grelha do jogo
         self.grid_size: int = size
         # Desenha a grelha do jogo (desativada por questões de estética)
