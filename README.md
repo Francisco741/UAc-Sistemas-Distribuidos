@@ -1,4 +1,4 @@
-# Projeto em Python de um jogo multijogador com um sistema distribuído
+# Projeto em Python de um jogo multijogador com um sistema distribuído através de WebSockets
 
 ## OssoSaurus: Desenterrando o Passado
 
