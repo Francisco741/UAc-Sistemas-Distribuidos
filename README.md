@@ -1,4 +1,6 @@
-# OssoSaurus: Desenterrando o Passado
+# Projeto em Python de um jogo multijogador com um sistema distribuído
+
+## OssoSaurus: Desenterrando o Passado
 
 ## Controlos
 
